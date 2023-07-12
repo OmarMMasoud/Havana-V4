@@ -1,0 +1,50 @@
+@import'colors';
+*{
+    font-family : 'Futura PT' , sans-serif ; 
+                                                
+}
+@font-face { 
+    font-family: "FuturaPTBoldObl";
+    src: url("../fonts/FuturaPTBoldObl/FuturaPTBoldObl.eot");
+    src: url("../fonts/FuturaPTBoldObl/FuturaPTBoldObl.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/FuturaPTBoldObl/FuturaPTBoldObl.woff") format("woff"),
+    url("../fonts/FuturaPTBoldObl/FuturaPTBoldObl.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1{
+margin-top: 0; //change it after adding the nav
+padding-top: 7rem;
+color: $sc;
+text-align: center;
+font-size: 4rem;
+font-family: Futura PT;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+h3{
+    color: $sc;
+    font-family: 100;
+    text-align: center;
+    margin-inline: auto;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    position: absolute;
+    z-index: 5;
+}
+p{
+    color: $sc;
+text-align: center;
+font-size: 1.2rem;
+width: 70%;
+margin: 1rem auto;
+font-family: Futura PT;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}

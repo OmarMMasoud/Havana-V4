@@ -1,0 +1,18 @@
+#section2 {
+  margin: 4rem auto;
+  height: fit-content;
+  width: 100%;
+}
+#section2 .container .block:nth-child(even) {
+  background-color: #00000050;
+  flex-direction: row-reverse;
+}
+#section2 .container .block {
+  padding: 3rem 0;
+  margin: 3rem auto;
+  display: flex;
+  align-items: center;
+}
+#section2 .container .block .text p {
+  text-align: left;
+}
